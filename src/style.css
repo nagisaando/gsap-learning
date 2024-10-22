@@ -5,22 +5,26 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: block;
 }
 
 body {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  justify-content: flex-start;
+  background-color: #242424;
   min-height: 100vh;
   margin: 0;
   overflow: hidden;
+
+  > div {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 #box-container {
@@ -31,6 +35,8 @@ body {
   display: block;
   width: 75px;
   height: 75px;
-  border-radius: 12px;
-  background-color: #129490;
+}
+
+#hungry-text {
+  font-size: 80px;
 }
