@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+#time-control {
+  padding-bottom: 10rem;
+}
+.word {
+  display: flex;
+  overflow: hidden;
+}
+
+body {
+  /* padding: 2rem;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  > div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.time-control-content {
+  position: relative;
+  width: 100%;
+  flex-grow: 1;
+  will-change: transform;
+  padding-top: 10rem;
+  margin: 10rem 0;
+}
+
+h1 {
+  font-size: 16vw;
+  margin: 0;
+  line-height: 1;
+  width: 100%;
+  font-weight: 600;
+}
+
+span {
+  display: inline-block;
+  line-height: 1;
+}
+
+.anything {
+  justify-content: flex-end;
+  padding-bottom: 1.6vw;
+}
+
+img {
+  position: absolute;
+  max-width: 100%;
+  width: 100px;
+}
+
+svg {
+  width: 100px;
+}
+
+.square {
+  bottom: 80%;
+  left: 12%;
+  width: 10%;
+}
+
+.spiral {
+  top: 65%;
+  left: 58%;
+  width: 20%;
+  z-index: -1;
+}
+
+.flower {
+  left: 5%;
+  top: 70%;
+  width: 10%;
+}
+
+/* 
+.bolt {
+  position: absolute;
+  left: 85%;
+  top: -3%;
+  width: 10%;
+}
+
+*/

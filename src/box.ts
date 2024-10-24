@@ -39,6 +39,9 @@ export function animateBox() {
       },
     }
   )
+    .to(".box", { x: -200 }, 0) // this animation fires in 0 sec of the whole animation
+    .to(".box", { y: 300 }, "+=4") // relative position
+    .to(".box", { x: 300 }, "<") // start the beginning of the previous tween
     .to(".box", {
       x: 200,
       duration: 1,

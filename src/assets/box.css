@@ -1,0 +1,9 @@
+#box-container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.box {
+  display: block;
+  width: 75px;
+  height: 75px;
+}

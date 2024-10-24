@@ -1,7 +1,13 @@
-import "./style.css";
-import { animateBox } from "./box";
-import { animateHungry } from "./hungry";
-import { animateButton } from "./button";
+import "./assets/style.css";
+import "./assets/box.css";
+import "./assets/button.css";
+import "./assets/hungry.css";
+import "./assets/time-control.css";
+import { timeControl } from "./time-control";
+// import { animateBox } from "./box";
+// import { animateHungry } from "./hungry";
+// import { animateButton } from "./button";
+timeControl();
 // animateHungry();
 // animateBox();
-animateButton();
+// animateButton();
